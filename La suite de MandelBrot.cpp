@@ -30,7 +30,7 @@ int main() {
         cout<< "iteration " <<i + 1<< ": z = "<< R << " + " << I << "i" << endl;
 
         if (R * I + Rt *It > 4){
-            cout<< "La suite diverge après "<<i + 1<< "interations."<< endl;
+            cout<< "La suite diverge après "<<i + 1<< "iterations."<< endl;
             break;
         }
     }
